@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnableNotifications</key>
+	<true/>
+	<key>Notifications</key>
+	<array>
+		<dict>
+			<key>ShouldWaitIntervalBeforeFirstFire</key>
+			<false/>
+			<key>CausesNotificationGeneration</key>
+			<true/>
+			<key>Name</key>
+			<string>ExampleNotification</string>
+			<key>Description</key>
+			<string>Example Notification demonstrating functionality</string>
+			<key>IntervalSeconds</key>
+			<integer>20</integer>
+			<key>OneTimeOnly</key>
+			<false/>
+			<key>Enabled</key>
+			<true/>
+		</dict>
+	</array>
+</dict>
+</plist>

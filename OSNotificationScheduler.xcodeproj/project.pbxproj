@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83854757170F04B600E2EE61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83854756170F04B600E2EE61 /* UIKit.framework */; };
+		83854759170F04B600E2EE61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83854758170F04B600E2EE61 /* Foundation.framework */; };
+		8385475B170F04B600E2EE61 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8385475A170F04B600E2EE61 /* CoreGraphics.framework */; };
+		83854761170F04B600E2EE61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8385475F170F04B600E2EE61 /* InfoPlist.strings */; };
+		83854763170F04B600E2EE61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83854762170F04B600E2EE61 /* main.m */; };
+		83854767170F04B600E2EE61 /* OSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83854766170F04B600E2EE61 /* OSAppDelegate.m */; };
+		83854769170F04B600E2EE61 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 83854768170F04B600E2EE61 /* Default.png */; };
+		8385476B170F04B600E2EE61 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8385476A170F04B600E2EE61 /* Default@2x.png */; };
+		8385476D170F04B600E2EE61 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8385476C170F04B600E2EE61 /* Default-568h@2x.png */; };
+		83854770170F04B600E2EE61 /* OSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8385476F170F04B600E2EE61 /* OSViewController.m */; };
+		83854773170F04B600E2EE61 /* OSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83854771170F04B600E2EE61 /* OSViewController.xib */; };
+		8385477F170F04C300E2EE61 /* OSNotificationDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8385477B170F04C300E2EE61 /* OSNotificationDescriptor.m */; };
+		83854780170F04C300E2EE61 /* OSNotificationScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8385477D170F04C300E2EE61 /* OSNotificationScheduler.m */; };
+		83854781170F04C300E2EE61 /* OSNotificationScheduler.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8385477E170F04C300E2EE61 /* OSNotificationScheduler.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		83854753170F04B600E2EE61 /* OSNotificationScheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OSNotificationScheduler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83854756170F04B600E2EE61 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		83854758170F04B600E2EE61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8385475A170F04B600E2EE61 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8385475E170F04B600E2EE61 /* OSNotificationScheduler-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OSNotificationScheduler-Info.plist"; sourceTree = "<group>"; };
+		83854760170F04B600E2EE61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		83854762170F04B600E2EE61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		83854764170F04B600E2EE61 /* OSNotificationScheduler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OSNotificationScheduler-Prefix.pch"; sourceTree = "<group>"; };
+		83854765170F04B600E2EE61 /* OSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSAppDelegate.h; sourceTree = "<group>"; };
+		83854766170F04B600E2EE61 /* OSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSAppDelegate.m; sourceTree = "<group>"; };
+		83854768170F04B600E2EE61 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8385476A170F04B600E2EE61 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8385476C170F04B600E2EE61 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8385476E170F04B600E2EE61 /* OSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSViewController.h; sourceTree = "<group>"; };
+		8385476F170F04B600E2EE61 /* OSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSViewController.m; sourceTree = "<group>"; };
+		83854772170F04B600E2EE61 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/OSViewController.xib; sourceTree = "<group>"; };
+		8385477A170F04C300E2EE61 /* OSNotificationDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSNotificationDescriptor.h; sourceTree = "<group>"; };
+		8385477B170F04C300E2EE61 /* OSNotificationDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSNotificationDescriptor.m; sourceTree = "<group>"; };
+		8385477C170F04C300E2EE61 /* OSNotificationScheduler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSNotificationScheduler.h; sourceTree = "<group>"; };
+		8385477D170F04C300E2EE61 /* OSNotificationScheduler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSNotificationScheduler.m; sourceTree = "<group>"; };
+		8385477E170F04C300E2EE61 /* OSNotificationScheduler.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = OSNotificationScheduler.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83854750170F04B600E2EE61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83854757170F04B600E2EE61 /* UIKit.framework in Frameworks */,
+				83854759170F04B600E2EE61 /* Foundation.framework in Frameworks */,
+				8385475B170F04B600E2EE61 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8385474A170F04B600E2EE61 = {
+			isa = PBXGroup;
+			children = (
+				8385475C170F04B600E2EE61 /* OSNotificationScheduler */,
+				83854755170F04B600E2EE61 /* Frameworks */,
+				83854754170F04B600E2EE61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83854754170F04B600E2EE61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83854753170F04B600E2EE61 /* OSNotificationScheduler.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83854755170F04B600E2EE61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83854756170F04B600E2EE61 /* UIKit.framework */,
+				83854758170F04B600E2EE61 /* Foundation.framework */,
+				8385475A170F04B600E2EE61 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8385475C170F04B600E2EE61 /* OSNotificationScheduler */ = {
+			isa = PBXGroup;
+			children = (
+				83854779170F04C300E2EE61 /* OSNotificationScheduler */,
+				83854765170F04B600E2EE61 /* OSAppDelegate.h */,
+				83854766170F04B600E2EE61 /* OSAppDelegate.m */,
+				8385476E170F04B600E2EE61 /* OSViewController.h */,
+				8385476F170F04B600E2EE61 /* OSViewController.m */,
+				83854771170F04B600E2EE61 /* OSViewController.xib */,
+				8385475D170F04B600E2EE61 /* Supporting Files */,
+			);
+			path = OSNotificationScheduler;
+			sourceTree = "<group>";
+		};
+		8385475D170F04B600E2EE61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8385475E170F04B600E2EE61 /* OSNotificationScheduler-Info.plist */,
+				8385475F170F04B600E2EE61 /* InfoPlist.strings */,
+				83854762170F04B600E2EE61 /* main.m */,
+				83854764170F04B600E2EE61 /* OSNotificationScheduler-Prefix.pch */,
+				83854768170F04B600E2EE61 /* Default.png */,
+				8385476A170F04B600E2EE61 /* Default@2x.png */,
+				8385476C170F04B600E2EE61 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83854779170F04C300E2EE61 /* OSNotificationScheduler */ = {
+			isa = PBXGroup;
+			children = (
+				8385477A170F04C300E2EE61 /* OSNotificationDescriptor.h */,
+				8385477B170F04C300E2EE61 /* OSNotificationDescriptor.m */,
+				8385477C170F04C300E2EE61 /* OSNotificationScheduler.h */,
+				8385477D170F04C300E2EE61 /* OSNotificationScheduler.m */,
+				8385477E170F04C300E2EE61 /* OSNotificationScheduler.plist */,
+			);
+			path = OSNotificationScheduler;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83854752170F04B600E2EE61 /* OSNotificationScheduler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83854776170F04B600E2EE61 /* Build configuration list for PBXNativeTarget "OSNotificationScheduler" */;
+			buildPhases = (
+				8385474F170F04B600E2EE61 /* Sources */,
+				83854750170F04B600E2EE61 /* Frameworks */,
+				83854751170F04B600E2EE61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OSNotificationScheduler;
+			productName = OSNotificationScheduler;
+			productReference = 83854753170F04B600E2EE61 /* OSNotificationScheduler.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8385474B170F04B600E2EE61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OS;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Ocasta Studios";
+			};
+			buildConfigurationList = 8385474E170F04B600E2EE61 /* Build configuration list for PBXProject "OSNotificationScheduler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8385474A170F04B600E2EE61;
+			productRefGroup = 83854754170F04B600E2EE61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83854752170F04B600E2EE61 /* OSNotificationScheduler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83854751170F04B600E2EE61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83854761170F04B600E2EE61 /* InfoPlist.strings in Resources */,
+				83854769170F04B600E2EE61 /* Default.png in Resources */,
+				8385476B170F04B600E2EE61 /* Default@2x.png in Resources */,
+				8385476D170F04B600E2EE61 /* Default-568h@2x.png in Resources */,
+				83854773170F04B600E2EE61 /* OSViewController.xib in Resources */,
+				83854781170F04C300E2EE61 /* OSNotificationScheduler.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8385474F170F04B600E2EE61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83854763170F04B600E2EE61 /* main.m in Sources */,
+				83854767170F04B600E2EE61 /* OSAppDelegate.m in Sources */,
+				83854770170F04B600E2EE61 /* OSViewController.m in Sources */,
+				8385477F170F04C300E2EE61 /* OSNotificationDescriptor.m in Sources */,
+				83854780170F04C300E2EE61 /* OSNotificationScheduler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8385475F170F04B600E2EE61 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83854760170F04B600E2EE61 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		83854771170F04B600E2EE61 /* OSViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83854772170F04B600E2EE61 /* en */,
+			);
+			name = OSViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83854774170F04B600E2EE61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83854775170F04B600E2EE61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83854777170F04B600E2EE61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OSNotificationScheduler/OSNotificationScheduler-Prefix.pch";
+				INFOPLIST_FILE = "OSNotificationScheduler/OSNotificationScheduler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		83854778170F04B600E2EE61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OSNotificationScheduler/OSNotificationScheduler-Prefix.pch";
+				INFOPLIST_FILE = "OSNotificationScheduler/OSNotificationScheduler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8385474E170F04B600E2EE61 /* Build configuration list for PBXProject "OSNotificationScheduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83854774170F04B600E2EE61 /* Debug */,
+				83854775170F04B600E2EE61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83854776170F04B600E2EE61 /* Build configuration list for PBXNativeTarget "OSNotificationScheduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83854777170F04B600E2EE61 /* Debug */,
+				83854778170F04B600E2EE61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8385474B170F04B600E2EE61 /* Project object */;
+}
